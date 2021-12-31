@@ -1,6 +1,7 @@
-const derek_papucho = "Hell world";
+const express = require("express");
+const app = express();
 
-console.log(derek_papucho);
+app.get("");
 
 app.listen(PORT, () => {
   console.log("Listening on port", PORT);
